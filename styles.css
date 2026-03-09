@@ -10,8 +10,6 @@
 }
 
 .square {
-  width: calc(100% / 16);
-  height: calc(100% / 16);
   background-color: red;
   border: 0.5px solid brown;
 }
