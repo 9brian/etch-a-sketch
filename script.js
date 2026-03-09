@@ -1,7 +1,7 @@
 const container = document.querySelector("#container"); 
 
-const newDiv = document.createElement("div");
-
-newDiv.classList.add("div1");
-
-container.appendChild(newDiv);
+for (let i = 0; i < 256; i++) {
+    const square = document.createElement("div");
+    square.classList.add("square");
+    container.appendChild(square);
+}
